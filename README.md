@@ -61,7 +61,7 @@ A full-stack application for saving and organizing web links with automatic meta
 
 ### Environment Variables
 Backend (.env)
-
+```bash
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 PORT=8000
