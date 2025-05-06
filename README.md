@@ -45,21 +45,21 @@ A full-stack application for saving and organizing web links with automatic meta
    git clone https://github.com/your-username/link-saver.git
    cd link-saver
 
-2. Backend Setup
-cd Link-Saver-Backend
-npm install
-cp .env.example .env
-# Update .env with your credentials
-npm run dev
+2. **Backend Setup**
+   ```bash
+   cd Link-Saver-Backend
+   npm install
+   cp .env.example .env
+   # Update .env with your credentials
+   npm run dev
 
+3. **Frontend Setup**
+   ```bash
+   cd link-saver-frontend
+   npm install
+   npm run dev
 
-3. Frontend Setup
-cd link-saver-frontend
-npm install
-npm run dev
-
-
-## Environment Variables
+### Environment Variables
 Backend (.env)
 
 MONGO_URI=your_mongodb_uri
